@@ -1,2 +1,2 @@
--- Enjoy, this is a pre-beta version, some things are broken, or detected, please report any bus to me
-loadstring(game:HttpGet("https://monlua-protector.vercel.app/raw/24ef0eb95911ae5d2606cb443733f1fa"))()
+-- Enjoy, this is a beta version, some things are broken, or bugged please report any bugs to me
+loadstring(game:HttpGet("https://monlua-protector.vercel.app/raw/45c9fc33280a178a70e82ab3eb97fa0f"))()
