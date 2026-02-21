@@ -310,4 +310,4 @@
 -- skid skid skid skid skid skid skid skid skid skid
 -- skid skid skid skid skid skid skid skid skid skid
 -- skid skid skid skid skid skid skid skid skid skid
-loadstring(game:HttpGet("https://monlua-protector.vercel.app/raw/78ec8ceadf92b51e19b2220414a8e387"))()
+loadstring(game:HttpGet("https://monlua-protector.vercel.app/raw/4e03592d08a70a73ad8feaf819f44079"))()
