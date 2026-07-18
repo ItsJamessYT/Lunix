@@ -1,4 +1,4 @@
-# Steal a Brainrot — Lua Script
+# Steal a Brainrot — Lunix
 
 > A lightweight, fast, and reliable Lua script designed for the best gameplay experience.
 
