@@ -1,12 +1,14 @@
+local Players = game:GetService("Players")
+
 local scripts = {
     [72001091182267] = "HotPotato.lua",
-      -- More coming soon...
+    -- More Coming soon!
 }
 
 local file = scripts[game.PlaceId]
 
 if not file then
-    warn("Game not supported")
+    Players.LocalPlayer:Kick("Unsupported Game\n.gg/2BWHEGZjQq")
     return
 end
 
@@ -16,15 +18,13 @@ local success, source = pcall(function()
     return game:HttpGet(url)
 end)
 
-if not success then
-    warn("Failed to load:", source)
+if not success or not source or #source == 0 then
     return
 end
 
-local func, err = loadstring(source)
+local func = loadstring(source)
 
 if not func then
-    warn("Failed to compile:", err)
     return
 end
 
