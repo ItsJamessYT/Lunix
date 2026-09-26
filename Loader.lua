@@ -2,23 +2,21 @@ local Players = game:GetService("Players")
 
 local scripts = {
     [72001091182267] = "HotPotato.lua",
-    -- More Coming soon!
+    -- More Soon!
 }
 
 local file = scripts[game.PlaceId]
 
 if not file then
-    Players.LocalPlayer:Kick("Unsupported Game\n.gg/2BWHEGZjQq")
+    Players.LocalPlayer:Kick("Unsupported Game")
     return
 end
 
 local url = "https://raw.githubusercontent.com/ItsJamessYT/Lunix/main/" .. file
 
-local success, source = pcall(function()
-    return game:HttpGet(url)
-end)
+local source = game:HttpGet(url)
 
-if not success or not source or #source == 0 then
+if not source or source == "" then
     return
 end
 
