@@ -8,7 +8,7 @@ local scripts = {
 local file = scripts[game.PlaceId]
 
 if not file then
-    Players.LocalPlayer:Kick("Unsupported Game")
+    Players.LocalPlayer:Kick("Unsupported Game\n.gg/2BWHEGZjQq")
     return
 end
 
