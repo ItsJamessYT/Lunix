@@ -3,6 +3,7 @@ local Players = game:GetService("Players")
 local scripts = {
     [72001091182267] = "HotPotato.lua",
     [89150686181211] = "FindnPaint.lua",
+    [114122724051462] = "SpotnMark.lua",
 }
 
 local file = scripts[game.PlaceId]
