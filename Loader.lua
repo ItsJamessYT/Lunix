@@ -4,6 +4,7 @@ local scripts = {
     [72001091182267] = "HotPotato.lua",
     [89150686181211] = "FindnPaint.lua",
     [114122724051462] = "SpotnMark.lua",
+    [126870639873289] = "JumpForanimals.lua",
 }
 
 local file = scripts[game.PlaceId]
