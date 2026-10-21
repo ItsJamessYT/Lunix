@@ -1,1 +1,1 @@
--- Soon!
+print("soon")
