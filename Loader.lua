@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 
 local scripts = {
     [133787291114459] = "DrawaFlag.lua",
-    [73621314943835] = "GuessCharacterColor.lua"
+    [123456789] = "Placeholder.lua"
    
 }
 
